@@ -1,3 +1,5 @@
 #!/bin/bash
-dotnet publish -c Release -r centos.7-x64
-docket build -t myconsole .
+
+dotnet publish -c Release -r linux-x64
+docker build -t myconsole1 .
+

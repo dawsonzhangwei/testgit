@@ -2,5 +2,5 @@ version: "3"
 
 services:
   net-core:
-    image: myconsole
+    image: myconsole1
     container_name: MyConsole
